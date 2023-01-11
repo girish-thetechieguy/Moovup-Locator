@@ -1,0 +1,50 @@
+ /* The height and width of the div will become the dimensions of the map! */
+        #map {
+          height: 800px;
+          width: 1200px;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 30px;;
+          background-color: white;
+        }
+
+        h1{
+            background-color:lavender;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            background-color: lavender;
+            text-align: Left;
+        }
+
+        button{
+          width: 200px;;
+        }
+
+        #friendBtn{
+          width: 100px;;
+        }
+
+        #address{
+          width: 275px;
+        }
+
+        #directionsAddress{
+          width: 275px;
+        }
+
+        .row>* {
+            width: 120%;
+            max-width: 15%;
+        }
+
+        #img1 {
+          border-radius: 50%;
+          width: 35px;
+          height: 35px;
+        }

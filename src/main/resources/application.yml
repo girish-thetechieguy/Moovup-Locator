@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: friends-locator-service
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+server:
+  port: 9090
+com:
+  moovup:
+    endpoint: https://api.json-generator.com/templates/-xdNcNKYtTFG/data
+    token: vza4lbzrzy3cyhg4nbzyjhmqzjlqr2p3qibd9986
+management:
+  server:
+    port: 9090
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+  endpoint:
+    health:
+      show-components: always
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: status,beans,caches,health,info,conditions,configprops,env,loggers,heapdump,threaddump,scheduledtasks,mappings
